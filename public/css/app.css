@@ -15557,3 +15557,11 @@ a.text-dark:focus {
   background-repeat: no-repeat;
 }
 
+#home a {
+  position: absolute;
+  top: 50vh;
+  left: 45%;
+  color: #fff;
+  text-decoration: none;
+}
+

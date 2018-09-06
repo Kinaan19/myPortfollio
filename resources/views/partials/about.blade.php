@@ -1,7 +1,6 @@
 <section>
     <div class="d-flex justify-content-between">
-        <h1>About</h1>
-        <H1>test</H1>
+        <h2>About</h2>
+        <h2>test</h2>
     </div>
-
 </section>
