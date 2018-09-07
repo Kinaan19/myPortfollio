@@ -1,6 +1,6 @@
 @include('partials/nav')
-<section>
-    <div id="home" class="text-center">
+<section id="home">
+    <div class="text-center">
         <h1 class="m-0">
             <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
                 <span class="wrap"></span>

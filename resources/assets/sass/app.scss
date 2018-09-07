@@ -33,31 +33,31 @@ body{
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  padding: 500px 0;
   a{
     font-size: 85px;
-    position: absolute;
-    top: 40vh;
-    left: 35%;
     color: #fff;
     text-decoration: none;
   }
   ul{
-    position: absolute;
-    top: 45vh;
-    left: 40%;
     color: #fff;
     list-style-type: none;
+    padding: 0;
     li{
       font-size: 20px;
       display: inline-block;
-      margin: 100px 10px;
+      margin: 25px 5px;
     }
   }
   button{
     color: #fff;
-    top: 80vh;
-    left: 47%;
-    position: absolute;
     font-size: 32px;
+  }
+}
+
+#about{
+  p{
+    word-spacing: 12px;
+    // font-size: 14px;
   }
 }

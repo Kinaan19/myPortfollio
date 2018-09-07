@@ -13894,7 +13894,7 @@ module.exports = __webpack_require__(44);
  */
 
 __webpack_require__(13);
-__webpack_require__(66);
+__webpack_require__(36);
 
 window.Vue = __webpack_require__(37);
 
@@ -35951,7 +35951,69 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 36 */,
+/* 36 */
+/***/ (function(module, exports) {
+
+var TxtType = function TxtType(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+};
+
+TxtType.prototype.tick = function () {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+    var that = this;
+    var delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) {
+        delta /= 2;
+    }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+    }
+
+    setTimeout(function () {
+        that.tick();
+    }, delta);
+};
+
+window.onload = function () {
+    var elements = document.getElementsByClassName('typewrite');
+    for (var i = 0; i < elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-type');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+            new TxtType(elements[i], JSON.parse(toRotate), period);
+        }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    document.body.appendChild(css);
+};
+
+/***/ }),
 /* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -47412,91 +47474,7 @@ if (false) {
 /* 44 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */,
-/* 55 */,
-/* 56 */,
-/* 57 */,
-/* 58 */,
-/* 59 */,
-/* 60 */,
-/* 61 */,
-/* 62 */,
-/* 63 */,
-/* 64 */,
-/* 65 */,
-/* 66 */
-/***/ (function(module, exports) {
-
-var TxtType = function TxtType(el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
-    this.txt = '';
-    this.tick();
-    this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function () {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
-
-    if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
-
-    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-    var that = this;
-    var delta = 200 - Math.random() * 100;
-
-    if (this.isDeleting) {
-        delta /= 2;
-    }
-
-    if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-    }
-
-    setTimeout(function () {
-        that.tick();
-    }, delta);
-};
-
-window.onload = function () {
-    var elements = document.getElementsByClassName('typewrite');
-    for (var i = 0; i < elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-            new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
-    }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-    document.body.appendChild(css);
-};
+throw new Error("Module build failed: ModuleNotFoundError: Module not found: Error: Can't resolve '../../images/img01.jpg' in '/home/molengeek/Bureau/Coding-School/myPortfollio/resources/assets/sass'\n    at factoryCallback (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/webpack/lib/Compilation.js:282:40)\n    at factory (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/webpack/lib/NormalModuleFactory.js:237:20)\n    at resolver (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/webpack/lib/NormalModuleFactory.js:60:20)\n    at asyncLib.parallel (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/webpack/lib/NormalModuleFactory.js:127:20)\n    at /home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/async/dist/async.js:3888:9\n    at /home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/async/dist/async.js:473:16\n    at iteratorCallback (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/async/dist/async.js:1062:13)\n    at /home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/async/dist/async.js:969:16\n    at /home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/async/dist/async.js:3885:13\n    at resolvers.normal.resolve (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/webpack/lib/NormalModuleFactory.js:119:22)\n    at onError (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/Resolver.js:65:10)\n    at loggingCallbackWrapper (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/createInnerCallback.js:31:19)\n    at runAfter (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/Resolver.js:158:4)\n    at innerCallback (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/Resolver.js:146:3)\n    at loggingCallbackWrapper (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/createInnerCallback.js:31:19)\n    at next (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/tapable/lib/Tapable.js:252:11)\n    at /home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/UnsafeCachePlugin.js:40:4\n    at loggingCallbackWrapper (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/createInnerCallback.js:31:19)\n    at runAfter (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/Resolver.js:158:4)\n    at innerCallback (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/Resolver.js:146:3)\n    at loggingCallbackWrapper (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/createInnerCallback.js:31:19)\n    at next (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/tapable/lib/Tapable.js:252:11)\n    at innerCallback (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/Resolver.js:144:11)\n    at loggingCallbackWrapper (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/createInnerCallback.js:31:19)\n    at next (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/tapable/lib/Tapable.js:249:35)\n    at resolver.doResolve.createInnerCallback (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:44:6)\n    at loggingCallbackWrapper (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/createInnerCallback.js:31:19)\n    at afterInnerCallback (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/Resolver.js:168:10)\n    at loggingCallbackWrapper (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/enhanced-resolve/lib/createInnerCallback.js:31:19)\n    at next (/home/molengeek/Bureau/Coding-School/myPortfollio/node_modules/tapable/lib/Tapable.js:252:11)");
 
 /***/ })
 /******/ ]);
