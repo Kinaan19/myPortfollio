@@ -7,6 +7,8 @@
 
 require('./bootstrap');
 require('./typeWriter');
+// require('progressbar.js')
+// require('./skillBar');
 
 window.Vue = require('vue');
 

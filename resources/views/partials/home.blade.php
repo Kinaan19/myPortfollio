@@ -7,12 +7,12 @@
             </a>
         </h1>
         <ul>
-            <li><i class="fab fa-facebook-f"></i></li>
-            <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-google-plus-g"></i></li>
-            <li><i class="fab fa-dribbble"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
+            <li><a href="#" alt="facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" alt="twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" alt="goole+"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#" alt="dribble"><i class="fab fa-dribbble"></i></a></li>
+            <li><a href="#" alt="instagram"><i class="fab fa-instagram"></i></a></li>
         </ul>
-        <button class="bg-transparent border-0"><i class="fas fa-angle-double-down"></i></button>
+        <a class="bg-transparent border-0" href="#about" alt="Down arrow"><i class="fas fa-angle-double-down"></i></a>
     </div>
 </section>
