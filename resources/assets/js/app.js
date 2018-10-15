@@ -5,7 +5,11 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
+require('../../../node_modules/bootstrap/dist/js/bootstrap.min.js');
+require('../../../node_modules/jquery/dist/jquery.slim.min.js');
+require('../../../node_modules/popper.js/dist/popper.min.js');
 require('./bootstrap');
+require('./scrollNav');
 require('./typeWriter');
 // require('progressbar.js')
 // require('./skillBar');

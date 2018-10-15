@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
+use App\Http\Middleware\CheckAge;
+
+Route::get('/', function(){
     return view('myPage');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/edit/item_icon/{id}', 'HomeController@editItemIcon');
+// Route::get('/service/edit', 'HomeController@edit');
+// Route::post('/service/update', 'HomeController@update');
