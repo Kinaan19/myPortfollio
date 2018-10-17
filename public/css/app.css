@@ -13990,6 +13990,30 @@ button.bg-dark:focus {
   margin-left: 3rem !important;
 }
 
+.m-5.5 {
+  margin: 4.5rem !important;
+}
+
+.mt-5.5,
+.my-5.5 {
+  margin-top: 4.5rem !important;
+}
+
+.mr-5.5,
+.mx-5.5 {
+  margin-right: 4.5rem !important;
+}
+
+.mb-5.5,
+.my-5.5 {
+  margin-bottom: 4.5rem !important;
+}
+
+.ml-5.5,
+.mx-5.5 {
+  margin-left: 4.5rem !important;
+}
+
 .m-6 {
   margin: 6rem !important;
 }
@@ -14180,6 +14204,30 @@ button.bg-dark:focus {
 .pl-5,
 .px-5 {
   padding-left: 3rem !important;
+}
+
+.p-5.5 {
+  padding: 4.5rem !important;
+}
+
+.pt-5.5,
+.py-5.5 {
+  padding-top: 4.5rem !important;
+}
+
+.pr-5.5,
+.px-5.5 {
+  padding-right: 4.5rem !important;
+}
+
+.pb-5.5,
+.py-5.5 {
+  padding-bottom: 4.5rem !important;
+}
+
+.pl-5.5,
+.px-5.5 {
+  padding-left: 4.5rem !important;
 }
 
 .p-6 {
@@ -14399,6 +14447,30 @@ button.bg-dark:focus {
     margin-left: 3rem !important;
   }
 
+  .m-sm-5.5 {
+    margin: 4.5rem !important;
+  }
+
+  .mt-sm-5.5,
+  .my-sm-5.5 {
+    margin-top: 4.5rem !important;
+  }
+
+  .mr-sm-5.5,
+  .mx-sm-5.5 {
+    margin-right: 4.5rem !important;
+  }
+
+  .mb-sm-5.5,
+  .my-sm-5.5 {
+    margin-bottom: 4.5rem !important;
+  }
+
+  .ml-sm-5.5,
+  .mx-sm-5.5 {
+    margin-left: 4.5rem !important;
+  }
+
   .m-sm-6 {
     margin: 6rem !important;
   }
@@ -14589,6 +14661,30 @@ button.bg-dark:focus {
   .pl-sm-5,
   .px-sm-5 {
     padding-left: 3rem !important;
+  }
+
+  .p-sm-5.5 {
+    padding: 4.5rem !important;
+  }
+
+  .pt-sm-5.5,
+  .py-sm-5.5 {
+    padding-top: 4.5rem !important;
+  }
+
+  .pr-sm-5.5,
+  .px-sm-5.5 {
+    padding-right: 4.5rem !important;
+  }
+
+  .pb-sm-5.5,
+  .py-sm-5.5 {
+    padding-bottom: 4.5rem !important;
+  }
+
+  .pl-sm-5.5,
+  .px-sm-5.5 {
+    padding-left: 4.5rem !important;
   }
 
   .p-sm-6 {
@@ -14809,6 +14905,30 @@ button.bg-dark:focus {
     margin-left: 3rem !important;
   }
 
+  .m-md-5.5 {
+    margin: 4.5rem !important;
+  }
+
+  .mt-md-5.5,
+  .my-md-5.5 {
+    margin-top: 4.5rem !important;
+  }
+
+  .mr-md-5.5,
+  .mx-md-5.5 {
+    margin-right: 4.5rem !important;
+  }
+
+  .mb-md-5.5,
+  .my-md-5.5 {
+    margin-bottom: 4.5rem !important;
+  }
+
+  .ml-md-5.5,
+  .mx-md-5.5 {
+    margin-left: 4.5rem !important;
+  }
+
   .m-md-6 {
     margin: 6rem !important;
   }
@@ -14999,6 +15119,30 @@ button.bg-dark:focus {
   .pl-md-5,
   .px-md-5 {
     padding-left: 3rem !important;
+  }
+
+  .p-md-5.5 {
+    padding: 4.5rem !important;
+  }
+
+  .pt-md-5.5,
+  .py-md-5.5 {
+    padding-top: 4.5rem !important;
+  }
+
+  .pr-md-5.5,
+  .px-md-5.5 {
+    padding-right: 4.5rem !important;
+  }
+
+  .pb-md-5.5,
+  .py-md-5.5 {
+    padding-bottom: 4.5rem !important;
+  }
+
+  .pl-md-5.5,
+  .px-md-5.5 {
+    padding-left: 4.5rem !important;
   }
 
   .p-md-6 {
@@ -15219,6 +15363,30 @@ button.bg-dark:focus {
     margin-left: 3rem !important;
   }
 
+  .m-lg-5.5 {
+    margin: 4.5rem !important;
+  }
+
+  .mt-lg-5.5,
+  .my-lg-5.5 {
+    margin-top: 4.5rem !important;
+  }
+
+  .mr-lg-5.5,
+  .mx-lg-5.5 {
+    margin-right: 4.5rem !important;
+  }
+
+  .mb-lg-5.5,
+  .my-lg-5.5 {
+    margin-bottom: 4.5rem !important;
+  }
+
+  .ml-lg-5.5,
+  .mx-lg-5.5 {
+    margin-left: 4.5rem !important;
+  }
+
   .m-lg-6 {
     margin: 6rem !important;
   }
@@ -15409,6 +15577,30 @@ button.bg-dark:focus {
   .pl-lg-5,
   .px-lg-5 {
     padding-left: 3rem !important;
+  }
+
+  .p-lg-5.5 {
+    padding: 4.5rem !important;
+  }
+
+  .pt-lg-5.5,
+  .py-lg-5.5 {
+    padding-top: 4.5rem !important;
+  }
+
+  .pr-lg-5.5,
+  .px-lg-5.5 {
+    padding-right: 4.5rem !important;
+  }
+
+  .pb-lg-5.5,
+  .py-lg-5.5 {
+    padding-bottom: 4.5rem !important;
+  }
+
+  .pl-lg-5.5,
+  .px-lg-5.5 {
+    padding-left: 4.5rem !important;
   }
 
   .p-lg-6 {
@@ -15629,6 +15821,30 @@ button.bg-dark:focus {
     margin-left: 3rem !important;
   }
 
+  .m-xl-5.5 {
+    margin: 4.5rem !important;
+  }
+
+  .mt-xl-5.5,
+  .my-xl-5.5 {
+    margin-top: 4.5rem !important;
+  }
+
+  .mr-xl-5.5,
+  .mx-xl-5.5 {
+    margin-right: 4.5rem !important;
+  }
+
+  .mb-xl-5.5,
+  .my-xl-5.5 {
+    margin-bottom: 4.5rem !important;
+  }
+
+  .ml-xl-5.5,
+  .mx-xl-5.5 {
+    margin-left: 4.5rem !important;
+  }
+
   .m-xl-6 {
     margin: 6rem !important;
   }
@@ -15819,6 +16035,30 @@ button.bg-dark:focus {
   .pl-xl-5,
   .px-xl-5 {
     padding-left: 3rem !important;
+  }
+
+  .p-xl-5.5 {
+    padding: 4.5rem !important;
+  }
+
+  .pt-xl-5.5,
+  .py-xl-5.5 {
+    padding-top: 4.5rem !important;
+  }
+
+  .pr-xl-5.5,
+  .px-xl-5.5 {
+    padding-right: 4.5rem !important;
+  }
+
+  .pb-xl-5.5,
+  .py-xl-5.5 {
+    padding-bottom: 4.5rem !important;
+  }
+
+  .pl-xl-5.5,
+  .px-xl-5.5 {
+    padding-left: 4.5rem !important;
   }
 
   .p-xl-6 {
@@ -16300,31 +16540,33 @@ header li a {
   text-transform: uppercase;
 }
 
-#service .col-sm-12 {
+#service .title {
   height: 110px;
 }
 
-#service .ItemIcon {
+#service .itemIcon {
   height: 80px;
   width: 80px;
   background-color: #f5f5f5;
   border-radius: 50%;
 }
 
-#service .col-sm-5 h2,
-#service .col-sm-5 p {
+#service .col-sm-10 h2,
+#service .col-sm-10 p {
   font-size: small;
 }
 
+#service .sectionItem select {
+  height: 97px;
+}
+
 #service .activeTitle,
-#service .activeItemIcon,
-#service .activeItemTitle,
-#service .activeItemText {
+#service .activeItem {
   opacity: 0;
   width: 0px;
   height: 0px;
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #service .sectionTitle:hover .activeTitle,
@@ -16334,59 +16576,11 @@ header li a {
   height: 100%;
 }
 
-#service .itemIcon:hover .activeItemIcon,
-#service .activeItemIcon:hover {
+#service .sectionItem:hover .activeItem,
+#service .activeItem:hover {
   opacity: 1;
   width: 100%;
   height: 100%;
-}
-
-#service .itemTitle:hover .activeItemTitle,
-#service .activeItemTitle:hover {
-  opacity: 1;
-  width: 100%;
-  height: 100%;
-}
-
-#service .itemText:hover .activeItemText,
-#service .activeItemText:hover {
-  opacity: 1;
-  width: 100%;
-  height: 100%;
-}
-
-#serviceEdit select {
-  height: 100px;
-  width: 100px;
-  font-size: 48px;
-}
-
-#serviceEdit option {
-  font-size: 48px;
-}
-
-#serviceEdit i {
-  font-size: 40px;
-  margin-top: 20px;
-}
-
-#serviceEdit h2 {
-  text-transform: uppercase;
-}
-
-#serviceEdit .edit select {
-  height: 100px;
-  width: 80px;
-  font-size: 24px;
-}
-
-#serviceEdit .col-sm-12 {
-  height: 110px;
-}
-
-#serviceEdit .col-sm-5 h2,
-#serviceEdit .col-sm-5 p {
-  font-size: small;
 }
 
 body {

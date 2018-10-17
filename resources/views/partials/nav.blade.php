@@ -12,7 +12,6 @@
                     <a class="nav-item nav-link active" href="#about">ABOUT</a>
                     <a class="nav-item nav-link active" href="#service">SERVICE</a>
                     <a class="nav-item nav-link active" href="#">WORK</a>
-                    <a class="nav-item nav-link active" href="#">TESTIMONIAL</a>
                     <a class="nav-item nav-link active" href="#">CONTACT</a>
                 </div>
             </div>

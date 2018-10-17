@@ -11,15 +11,18 @@
 |
 */
 
-use App\Http\Middleware\CheckAge;
-
-Route::get('/', function(){
-    return view('myPage');
-});
+Route::get('/', 'MyPageController@index');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::post('/edit/item_icon/{id}', 'HomeController@editItemIcon');
-// Route::get('/service/edit', 'HomeController@edit');
-// Route::post('/service/update', 'HomeController@update');
+
+Route::get('/delete/sectionItem/{id}', 'ServiceController@deleteSectionItem');
+
+Route::post('/edit/sectionTitle', 'ServiceController@editSectionTitle');
+Route::post('/edit/item/{id}', 'ServiceController@editSectionItem');
+
+Route::post('/update/sectionTitle', 'ServiceController@updateSectionTitle');
+Route::post('/update/sectionItem/{id}', 'ServiceController@updateSectionItem');
+
+Route::post('/create/sectionItem', 'ServiceController@createSectionItem');

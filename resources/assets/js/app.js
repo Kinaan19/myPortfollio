@@ -11,8 +11,7 @@ require('../../../node_modules/popper.js/dist/popper.min.js');
 require('./bootstrap');
 require('./scrollNav');
 require('./typeWriter');
-// require('progressbar.js')
-// require('./skillBar');
+require('./createToggle');
 
 window.Vue = require('vue');
 
