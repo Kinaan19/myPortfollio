@@ -1,0 +1,91 @@
+header {
+    li a {
+        color: #fff;
+    }
+
+    .myNav {
+        transition: 1s;
+        background: transparent;
+    }
+
+    .solid {
+        background-color: #000;
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .nav-item {
+        font-size: 12px;
+        margin: 0 10px;
+    }
+
+    .editButtons {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .sectionItem,
+    .sectionTitle {
+        display: flex;
+    }
+
+    .activeTitle,
+    .activeItem {
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    .sectionTitle:hover .activeTitle,
+    .activeTitle:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+    .sectionItem:hover .activeItem,
+    .activeItem:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    #navbarNavAltMarkup a {
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('/images/img01.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 500px 0;
+
+    a {
+        font-size: 85px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    ul {
+        color: #fff;
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: auto 5px;
+        }
+    }
+
+    .fab {
+        font-size: 20px;
+    }
+
+    .fa-angle-double-down {
+        font-size: 38px;
+    }
+}

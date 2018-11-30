@@ -16455,6 +16455,10 @@ a.text-dark:focus {
   }
 }
 
+header li a {
+  color: #fff;
+}
+
 header .myNav {
   -webkit-transition: 1s;
   transition: 1s;
@@ -16474,8 +16478,40 @@ header .nav-item {
   margin: 0 10px;
 }
 
-header li a {
+header .editButtons {
+  border: none;
+  background-color: transparent;
+}
+
+header .sectionItem,
+header .sectionTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .activeTitle,
+header .activeItem {
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .sectionTitle:hover .activeTitle,
+header .activeTitle:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+header .sectionItem:hover .activeItem,
+header .activeItem:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+header #navbarNavAltMarkup a {
   color: white;
+  text-transform: uppercase;
 }
 
 #home {
@@ -16581,6 +16617,19 @@ header li a {
   opacity: 1;
   width: 100%;
   height: 100%;
+}
+
+footer {
+  height: 200px;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline;
+}
+
+footer ul li i {
+  color: #000;
 }
 
 body {

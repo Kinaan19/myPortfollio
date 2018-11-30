@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="{{url('css/app.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
     <!-- Styles -->
-    <style>
-    </style>
 </head>
 
 <body>
     @include('partials/homePage')
     @include('partials/about')
-    @include('partials/service')    
+    @include('partials/service')  
+    @include('partials/contact')
+    @include('partials/footer')
 
     <script src="js/app.js"></script>
 </body>

@@ -13899,7 +13899,7 @@ __webpack_require__(16);
 __webpack_require__(17);
 __webpack_require__(40);
 __webpack_require__(41);
-__webpack_require__(71);
+__webpack_require__(42);
 
 window.Vue = __webpack_require__(43);
 
@@ -36071,7 +36071,22 @@ window.onload = function () {
 };
 
 /***/ }),
-/* 42 */,
+/* 42 */
+/***/ (function(module, exports) {
+
+$('#createToggle').click(function () {
+    $('#createSection').toggleClass('hide');
+    $('#createToggle').toggleClass('fa-arrow-circle-down');
+    $('#createToggle').toggleClass('fa-arrow-circle-up');
+});
+
+$('#toggleCreateNavLink').click(function () {
+    $('#createNavSection').toggleClass('hide');
+    $('#toggleCreateNavLink').toggleClass('far fa-plus-square');
+    $('#toggleCreateNavLink').toggleClass('far fa-minus-square');
+});
+
+/***/ }),
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -47533,36 +47548,6 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */,
-/* 55 */,
-/* 56 */,
-/* 57 */,
-/* 58 */,
-/* 59 */,
-/* 60 */,
-/* 61 */,
-/* 62 */,
-/* 63 */,
-/* 64 */,
-/* 65 */,
-/* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */,
-/* 71 */
-/***/ (function(module, exports) {
-
-$('#createToggle').click(function () {
-    $('#createSection').toggleClass('hide');
-    $('#createToggle').toggleClass('fa-arrow-circle-down');
-    $('#createToggle').toggleClass('fa-arrow-circle-up');
-});
 
 /***/ })
 /******/ ]);

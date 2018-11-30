@@ -13,9 +13,14 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             UsersTableSeeder::class,
+            NavbarLinksTableSeeder::class,
+            NavbarTitlesTableSeeder::class,
+            HomeIconsTableSeeder::class,
+            HomeImgsTableSeeder::class,
+            AboutsTableSeeder::class,
             ServiceTitlesTableSeeder::class,
             ServiceItemsTableSeeder::class,
-            IconsTableSeeder::class,
+            ServiceIconsTableSeeder::class,
         ]);
     }
 }
